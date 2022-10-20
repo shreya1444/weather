@@ -1,8 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
-  background-image:linear-gradient(45deg, blue, red);
-}
 
+  width: 100%;
+
+  background-size: cover;
+  background: url("https://th.bing.com/th/id/R.1ac226cfe79da1ebaa08c7cac43bacd3?rik=PWsmtYpT0GB9GQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fClouds-Wallpaper-Free-Download.jpg&ehk=xUFtezpmYe%2bMoPPmKKTOKqaWHt915nRFtelk%2f6xrdiI%3d&risl=&pid=ImgRaw&r=0");
+}
 
 .App-header {
   background-color: #282c34;
@@ -14,7 +22,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-.search{
+.search {
   width: 20%;
   align-items: center;
   height: 45px;
