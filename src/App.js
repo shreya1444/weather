@@ -17,7 +17,7 @@ function App() {
   const handleClick = () => {
     axios
       .get(
-        `http://api.weatherstack.com/current?access_key=38d85564cc1ff0bc9ccfa5585c72291e&query=${city}`
+        `http://api.weatherstack.com/current?access_key=f7d510eb6c33e97f8149d653980becbc&query=${city}`
       )
       .then((response) => {
         console.log(response.data);
